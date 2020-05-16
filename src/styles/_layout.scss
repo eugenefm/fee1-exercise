@@ -1,0 +1,28 @@
+.wrapper {
+  max-width: 980px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 100%;
+
+  &-wide {
+    max-width: 1286px;
+  }
+}
+
+header {
+  background: url('../assets/Wallpaper.png') center center;
+  background-size: cover;
+
+  h2 {
+    color: $light;
+    text-align: center;
+  }
+}
+
+main {
+  padding-top: 230px;
+}
+
+footer {
+  background-color: $orange-one;
+}
